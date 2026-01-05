@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; background:#0f1624; color:#e6e6e6; margin:0; }
+.container { max-width: 680px; margin: 40px auto; padding: 0 16px; }
+h1 { margin: 0 0 16px; font-weight: 600; }
+form { display:flex; gap:8px; margin-bottom:16px; }
+input, button { padding:10px 12px; border-radius:8px; border:1px solid #2a3344; background:#121a2b; color:#e6e6e6; }
+button { background:#3b82f6; border:none; cursor:pointer; }
+button:hover { filter:brightness(1.1); }
+.card { background:#121a2b; border:1px solid #2a3344; border-radius:12px; padding:16px; min-height:64px; }
+.price { font-size: 28px; font-weight: 700; }
+.meta { display:flex; gap:16px; margin-top:8px; color:#a6adc8; }
+.error { color:#fca5a5; }
